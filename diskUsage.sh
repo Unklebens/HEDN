@@ -1,6 +1,6 @@
 #!/bin/bash
 # to be croned weekly
-#0 0 * * 0
+#0 0 * * 0 /home/$USER/HEDN/diskUsage.sh
 
 #check for folder existance and create if not
 [ ! -d /home/$USER/Rapports/ ] && mkdir -p /home/$USER/Rapports/
